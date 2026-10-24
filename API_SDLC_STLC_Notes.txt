@@ -1,0 +1,159 @@
+API, SDLC & STLC
+Fundamentals of Software Development and Testing
+===============================================
+
+1. API (APPLICATION PROGRAMMING INTERFACE)
+------------------------------------------
+Definition:
+API stands for Application Programming Interface. It allows one software application to communicate with another.
+
+How an API works:
+1. A client or application sends a request.
+2. The API passes the request to the relevant service.
+3. The service processes the request.
+4. The API returns a response, such as data or an error.
+
+Examples:
+- A weather app gets temperature information from a weather API.
+- A payment app uses a payment API to process transactions.
+- A map app uses a maps API to display locations.
+
+Common API types:
+- REST API: Commonly uses HTTP methods such as GET, POST, PUT, and DELETE.
+- SOAP API: Uses a formal messaging protocol, often with XML.
+- GraphQL API: Allows clients to request specific data fields.
+- WebSocket API: Supports ongoing, two-way communication in real time.
+
+API testing:
+API testing checks whether an API works correctly.
+Common checks include:
+- Status codes
+- Response data
+- Authentication and authorization
+- Error handling
+- Performance and security
+
+Common tools: Postman, curl, and automated testing frameworks.
+
+
+2. SDLC (SOFTWARE DEVELOPMENT LIFE CYCLE)
+-----------------------------------------
+Definition:
+SDLC is a structured process for planning, developing, delivering, and maintaining software.
+
+Main stages of SDLC:
+1. Planning
+   Define project goals, scope, budget, timeline, and feasibility.
+
+2. Requirements Analysis
+   Collect and document what users and the business need.
+
+3. Design
+   Plan the software architecture, database, interfaces, and technical approach.
+
+4. Development
+   Developers write and integrate the code.
+
+5. Testing
+   Check whether the software meets requirements and identify defects.
+
+6. Deployment
+   Release the software for users.
+
+7. Maintenance
+   Monitor the software, fix issues, and make improvements.
+
+Benefits of SDLC:
+- Provides a structured development process.
+- Helps manage time and cost.
+- Improves quality and teamwork.
+- Makes project progress easier to track.
+
+
+3. STLC (SOFTWARE TESTING LIFE CYCLE)
+-------------------------------------
+Definition:
+STLC is a structured process used by a testing team to plan and perform software testing.
+
+Main stages of STLC:
+1. Requirement Analysis
+   Identify testable requirements and clarify questions.
+
+2. Test Planning
+   Decide the testing scope, strategy, resources, schedule, and tools.
+
+3. Test Case Design
+   Prepare test cases, test data, and expected results.
+
+4. Test Environment Setup
+   Prepare the required hardware, software, and test data.
+
+5. Test Execution
+   Run test cases, compare actual results with expected results, and report defects.
+
+6. Test Cycle Closure
+   Summarize testing coverage, defect status, lessons learned, and remaining risks.
+
+Benefits of STLC:
+- Improves testing organization.
+- Helps identify defects.
+- Provides clear testing records.
+- Supports software quality.
+
+
+4. SDLC VS STLC
+---------------
+SDLC:
+- Full form: Software Development Life Cycle
+- Main focus: Building and maintaining software
+- Activities: Planning, requirements, design, coding, testing, deployment, and maintenance
+- Participants: Business analysts, designers, developers, testers, and stakeholders
+- Outputs: Working software and releases
+
+STLC:
+- Full form: Software Testing Life Cycle
+- Main focus: Checking software quality and finding defects
+- Activities: Requirement analysis, test planning, test design, environment setup, execution, and closure
+- Participants: Testers/QA working with developers and stakeholders
+- Outputs: Test cases, defect reports, and test summaries
+
+Important:
+STLC is part of the overall software development effort. Testing activities can happen alongside several SDLC stages, not only at the end.
+
+
+5. HOW API TESTING FITS INTO SDLC AND STLC
+------------------------------------------
+Example: Online appointment booking system
+
+SDLC activities:
+- Gather requirements for appointment booking.
+- Design the booking process and database.
+- Develop the application and its APIs.
+- Test the software and release it.
+- Maintain and improve the application.
+
+STLC activities:
+- Prepare test cases for booking and cancelling appointments.
+- Test invalid dates and duplicate time slots.
+- Record defects and retest fixes.
+- Prepare a test summary.
+
+API testing example:
+- Send a request to create an appointment.
+- Check the response status and returned appointment details.
+- Send a request to view or cancel the appointment.
+- Verify that invalid requests are handled correctly.
+
+These practices help deliver a reliable application.
+
+
+6. KEY TAKEAWAYS
+----------------
+- API allows software systems to communicate.
+- SDLC organizes the complete software development and maintenance process.
+- STLC organizes testing activities to assess quality and find defects.
+- API testing is an important testing activity and can be performed throughout development.
+- Collaboration between developers and testers helps improve software reliability.
+
+
+END OF NOTES
